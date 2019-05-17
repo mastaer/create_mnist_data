@@ -1,0 +1,18 @@
+cmd: python download_mnist.py
+deps:
+- md5: e9d2b3ebaa59d1562066f27c42c260d4
+  path: download_mnist.py
+outs:
+- cache: false
+  metric: false
+  path: ../data/mnist1.npz
+  persist: false
+- cache: false
+  metric: false
+  path: ../data/mnist2.npz
+  persist: false
+- cache: false
+  metric: false
+  path: ../data/mnist3.npz
+  persist: false
+wdir: .
