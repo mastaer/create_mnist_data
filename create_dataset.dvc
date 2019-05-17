@@ -1,6 +1,6 @@
 cmd: python download_mnist.py
 deps:
-- md5: e9d2b3ebaa59d1562066f27c42c260d4
+- md5: 5c8d94325fa07ae66dee0cda9d1806d9
   path: download_mnist.py
 outs:
 - cache: false
