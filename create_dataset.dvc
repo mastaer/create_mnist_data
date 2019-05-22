@@ -2,16 +2,20 @@ cmd: python download_mnist.py
 deps:
 - md5: 5c8d94325fa07ae66dee0cda9d1806d9
   path: download_mnist.py
+md5: e32c32b42f2b72d172d076a4d715c7f3
 outs:
 - cache: false
+  md5: 8a61469f7ea1b51cbae51d4f78837e45
   metric: false
   path: ../data/mnist1.npz
   persist: false
 - cache: false
+  md5: 8a61469f7ea1b51cbae51d4f78837e45
   metric: false
   path: ../data/mnist2.npz
   persist: false
 - cache: false
+  md5: 8a61469f7ea1b51cbae51d4f78837e45
   metric: false
   path: ../data/mnist3.npz
   persist: false
